@@ -1,0 +1,16 @@
+{
+   "name": "aSysBus",
+   "keywords": "arduino, smart, home, automation, can, bus",
+   "description": "Home control communication library supporting several communication interfaces.",
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/adlerweb/aSysBus.git"
+   },
+   "authors": {
+      "name": "Florian Knodt",
+      "maintainer": true
+   },
+   "version": "0.0.4",
+   "frameworks": "arduino",
+   "platforms": "atmelavr"
+}
