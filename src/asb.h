@@ -21,17 +21,17 @@
 
 #ifndef ASB__H
     #define ASB__H
-    #include "asb_comm.h"
-    #include "asb_proto.h"
-    #include "asb_hook.h"
+    #include "utils/asb_comm.h"
+    #include "utils/asb_proto.h"
+    #include "utils/asb_hook.h"
 
-    #include "asb_comm.h"
-    #include "asb_can.h"
-    #include "asb_uart.h"
+    #include "utils/asb_comm.h"
+    #include "communication/can/asb_can.h"
+    #include "communication/uart/asb_uart.h"
 
-    #include "asb_io.h"
-    #include "asb_io_din.h"
-    #include "asb_io_dout.h"
+    #include "utils/asb_io.h"
+    #include "utils/asb_io_din.h"
+    #include "utils/asb_io_dout.h"
 
     /**
      * Maximum number of parallel communication interfaces

@@ -20,7 +20,7 @@
 #ifndef ASB_UART__C
 #define ASB_UART__C
     #include "asb_uart.h"
-    #include "asb_proto.h"
+    #include "../../utils/asb_proto.h"
 
     ASB_UART::ASB_UART(Stream &serial) {
         ASB_UART::_interface = &serial;

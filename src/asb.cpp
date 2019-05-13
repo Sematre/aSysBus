@@ -22,7 +22,7 @@
 #ifndef ASB__C
 #define ASB__C
     #include "asb.h"
-    #include "asb_proto.h"
+    #include "utils/asb_proto.h"
 
     ASB::ASB(unsigned int start, unsigned int stop) {
         if(_cfgAddrStop < _cfgAddrStart+2) _cfgAddrStop = _cfgAddrStart;

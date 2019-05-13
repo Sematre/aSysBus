@@ -25,7 +25,7 @@
 #ifndef ASB_CAN__C
 #define ASB_CAN__C
     #include "asb_can.h"
-    #include "asb_proto.h"
+    #include "../../utils/asb_proto.h"
     #include <mcp_can.h>
     #include <SPI.h>
 
