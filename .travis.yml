@@ -6,12 +6,9 @@ cache:
   directories:
     - "~/.platformio"
 
-env:
-  - PLATFORMIO_CI_SRC=examples/simple/simple.ino
-
 install:
   - pip install -U platformio
   - platformio update
 
 script:
-  - platformio ci
+  - platformio run
