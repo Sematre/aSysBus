@@ -27,6 +27,7 @@
 
     #include "utils/asb_comm.h"
     #include "communication/can/asb_can.h"
+    #include "communication/can2/asb_can2.h"
     #include "communication/uart/asb_uart.h"
 
     #include "utils/asb_io.h"
